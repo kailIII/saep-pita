@@ -76,4 +76,18 @@ http://www.candres.com/archivo/consultas.jpg
 
 *INTERFAZ DE EJEMPLO PARA LA VENTANA PRINCIPAL*
 
-http://www.candres.com/archivo/ejem.jpg
+http://www.candres.com/archivo/ejem.png
+
+The following is:
+  * A list
+  * Of bulleted items
+    # This is a numbered sublist
+    # Which is done by indenting further
+  * And back to the main bulleted list
+
+ * This is also a list
+ * With a single leading space
+ * Notice that it is rendered
+  # At the same levels
+  # As the above lists.
+ * Despite the different indentation levels.
