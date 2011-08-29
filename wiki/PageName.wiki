@@ -11,7 +11,7 @@ Andrés Méndez Rodríguez, Observatorio del Desarrollo, UNIVERSIDAD DE COSTA RI
 
 =Sistema para el Análisis Espacial de Problemas (SAEP)=
 
-Introducción
+==Introducción==
 
 Esta propuesta para el software SAEP‐PitA busca desarrollar un sistema web de información geográfica con un conjunto de herramientas de propósito general que permitan simular, experimentar, medir, administrar y analizar problemas contextualmente situados geográficamente.
 
@@ -22,7 +22,7 @@ El diseño del SAEP‐PitA se asienta en la Internet y por lo tanto posee las fa
 En el 2010 e inicios de 2011 se diseñó una primera versión del sobre la base de la plataforma del Sistema de Información Regional de la Zona Económica Especial (SIR-ZEE). Actualmente, la implementación del software ha alcanzado un 80%. En el segundo semestre de 2011, se adaptará a la plataforma del Observatorio del Desarrollo de la UCR con vistas a su posible utilización en colaboración con el SIR-SUR.
 
 
-=REQUERIMIENTOS FUNCIONALES=
+==REQUERIMIENTOS FUNCIONALES==
 
    * Visualización en MapServer y p.mapper. (Requerimiento de software)
 
@@ -30,30 +30,50 @@ En el 2010 e inicios de 2011 se diseñó una primera versión del sobre la base 
 
    * Además, tener dos capas adicionales:
 
-       * Organizaciones de monitoreo: En el mapa deben visualizarse con un icono que permita al usuario tener mayores detalles como: Nombre, descripción, ubicación, imágenes, enlaces, entre otros.
+       # Organizaciones de monitoreo: En el mapa deben visualizarse con un icono que permita al usuario tener mayores detalles como: Nombre, descripción, ubicación, imágenes, enlaces, entre otros.
 
-       * Estaciones de monitoreo: En el mapa deben visualizarse con un icono que permita al usuario tener mayores detalles como descripción, ubicación, organización, entre otros atributos, un enlace y una imagen.
+       # Estaciones de monitoreo: En el mapa deben visualizarse con un icono que permita al usuario tener mayores detalles como descripción, ubicación, organización, entre otros atributos, un enlace y una imagen.
 
        
 
    * Las organizaciones de monitoreo y las estaciones de monitoreo deben ser clasificadas:
 
-       * Unas categorías definidas por el proyecto:
+       # Unas categorías definidas por el proyecto:
 
-       * Otros cualesquiera por el usuario final.
+       # Otros cualesquiera por el usuario final.
 
-       * Los usuarios autorizados para administrar las categorías son: Sólo los profesores.
+       # Los usuarios autorizados para administrar las categorías son: Sólo los profesores.
 
      
 
    * Consulta y análisis de información por categorías (requiere de la construcción de la consulta en el sistema). Ejemplos:
 
-       * Escuelas en riesgo de inundación por unidad administrativa (distrito, cantón)
+       # Escuelas en riesgo de inundación por unidad administrativa (distrito, cantón)
 
-       * Erosión por cultivo según pendiente y tipo de suelo por unidad administrativa (distrito, cantón)
+       # Erosión por cultivo según pendiente y tipo de suelo por unidad administrativa (distrito, cantón)
 
-       * Uso del suelo distinto a bosque dentro del área de protección en riberas (10 o 50 metros) por unidad administrativa (distrito, cantón)
+       # Uso del suelo distinto a bosque dentro del área de protección en riberas (10 o 50 metros) por unidad administrativa (distrito, cantón)
 
-       * ¿A qué distancias de los ríos se encuentra cada uno de los hospitales?
+       # ¿A qué distancias de los ríos se encuentra cada uno de los hospitales?
 
-       * Para construir el comedor estudiantil para el distrito escolar SD2 se requiere conocer las coordinadas del punto central entre las escuelas.
+       # Para construir el comedor estudiantil para el distrito escolar SD2 se requiere conocer las coordinadas del punto central entre las escuelas.
+
+*Interfaz de ejemplo “constructor de consultas”:*
+
+http://www.candres.com/archivo/consultas.jpg
+
+   * SIMULACION Función de articulación entre categorías de datos mediante algoritmos introducidos por el usuario, que permita plantear simulaciones de "qué pasa si".
+
+# Vinculando por ejemplo la categoría "uso de suelo" con "turbidez del agua" mediante un algoritmo que diga: si duplico (o aumento en cualquier porcentaje) en tal finca la cantidad de bosque, se reduce a la mitad (o en cualquier otro porcentaje) la turbidez de la quebrada que pasa por el límite de esta propiedad.
+
+# El PitA-SAEP deberá ser flexible para que este tipo de reglas puedan agregarse en cualquier momento.
+
+# Esta funcionalidad debería permitir una complejización ulterior mediante introducción de otras variables correlacionadas: por ejemplo, distancia de la finca a la quebrada, pendiente, tipo de suelo, de tal forma que estos factores puedan incluirse en nuevos algoritmos igualmente definidos por el usuario.
+
+# Es necesario que las capas de información georreferenciada permitan hacer cálculos de área que puedan igualmente articularse en estos algoritmos multifactoriales.
+
+# Actores sociales: La posibilidad de crear reglas por parte del usuario debe supeditarse a su previa caracterización en términos de pertenecer a un grupo de actores sociales cuyos atributos permitan la creación y ejercicio de las reglas de que se trate: por ejemplo, para aumentar el bosque en una propiedad, el usuario debe tener la autoridad correspondiente a los atributos de propietario o agente estatal (del Ministerio de Ambiente en este caso, o como oficial de ambiente en la municipalidad).
+
+*INTERFAZ DE EJEMPLO PARA LA VENTANA PRINCIPAL*
+
+http://www.candres.com/archivo/ejem.jpg
