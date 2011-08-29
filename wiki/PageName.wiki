@@ -63,16 +63,11 @@ En el 2010 e inicios de 2011 se diseñó una primera versión del sobre la base 
 http://www.candres.com/archivo/consultas.jpg
 
    * SIMULACION Función de articulación entre categorías de datos mediante algoritmos introducidos por el usuario, que permita plantear simulaciones de "qué pasa si".
-
-# Vinculando por ejemplo la categoría "uso de suelo" con "turbidez del agua" mediante un algoritmo que diga: si duplico (o aumento en cualquier porcentaje) en tal finca la cantidad de bosque, se reduce a la mitad (o en cualquier otro porcentaje) la turbidez de la quebrada que pasa por el límite de esta propiedad.
-
-# El PitA-SAEP deberá ser flexible para que este tipo de reglas puedan agregarse en cualquier momento.
-
-# Esta funcionalidad debería permitir una complejización ulterior mediante introducción de otras variables correlacionadas: por ejemplo, distancia de la finca a la quebrada, pendiente, tipo de suelo, de tal forma que estos factores puedan incluirse en nuevos algoritmos igualmente definidos por el usuario.
-
-# Es necesario que las capas de información georreferenciada permitan hacer cálculos de área que puedan igualmente articularse en estos algoritmos multifactoriales.
-
-# Actores sociales: La posibilidad de crear reglas por parte del usuario debe supeditarse a su previa caracterización en términos de pertenecer a un grupo de actores sociales cuyos atributos permitan la creación y ejercicio de las reglas de que se trate: por ejemplo, para aumentar el bosque en una propiedad, el usuario debe tener la autoridad correspondiente a los atributos de propietario o agente estatal (del Ministerio de Ambiente en este caso, o como oficial de ambiente en la municipalidad).
+     # Vinculando por ejemplo la categoría "uso de suelo" con "turbidez del agua" mediante un algoritmo que diga: si duplico (o aumento en cualquier porcentaje) en tal finca la cantidad de bosque, se reduce a la mitad (o en cualquier otro porcentaje) la turbidez de la quebrada que pasa por el límite de esta propiedad.
+     # El PitA-SAEP deberá ser flexible para que este tipo de reglas puedan agregarse en cualquier momento.
+     # Esta funcionalidad debería permitir una complejización ulterior mediante introducción de otras variables correlacionadas: por ejemplo, distancia de la finca a la quebrada, pendiente, tipo de suelo, de tal forma que estos factores puedan incluirse en nuevos algoritmos igualmente definidos por el usuario.  
+     # Es necesario que las capas de información georreferenciada permitan hacer cálculos de área que puedan igualmente articularse en estos algoritmos multifactoriales.
+     # Actores sociales: La posibilidad de crear reglas por parte del usuario debe supeditarse a su previa caracterización en términos de pertenecer a un grupo de actores sociales cuyos atributos permitan la creación y ejercicio de las reglas de que se trate: por ejemplo, para aumentar el bosque en una propiedad, el usuario debe tener la autoridad correspondiente a los atributos de propietario o agente estatal (del Ministerio de Ambiente en este caso, o como oficial de ambiente en la municipalidad).
 
 *INTERFAZ DE EJEMPLO PARA LA VENTANA PRINCIPAL*
 
