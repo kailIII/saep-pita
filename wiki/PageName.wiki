@@ -24,7 +24,7 @@ En el 2010 e inicios de 2011 se diseñó una primera versión del sobre la base 
 
 ==REQUERIMIENTOS FUNCIONALES==
 
-   * Visualización en MapServer y p.mapper. (Requerimiento de software)
+   * Visualización en MapServer y pmapper. (Requerimiento de software)
 
    * Colocar las siguientes capas de información geográfica, que pueda seleccionar el usuario: poblados, escuelas, ríos y cuerpos de agua, tipo y uso de suelos, fauna, flora, clima, situación socioeconómica, etc (ver el Atlas Digital del ITCR).
 
@@ -70,7 +70,7 @@ http://www.candres.com/archivo/ejem.png
 
 El siguiente es el link de la página principal del proyecto 
 
-www.moe-gaur.odd.ucr.ac.cr aunque por el momento el que funciona es:
+http://www.moe-gaur.odd.ucr.ac.cr aunque por el momento el que funciona es:
 
 http://163.178.114.104/mgau/ 
 
@@ -100,4 +100,3 @@ http://postgis.refractions.net/
 Tecnologías a valorar
 
 http://geoserver.org/display/GEOS/Welcome
-
