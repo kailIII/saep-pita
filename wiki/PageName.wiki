@@ -31,7 +31,6 @@ En el 2010 e inicios de 2011 se diseñó una primera versión del sobre la base 
    * Además, tener dos capas adicionales:
 
        # Organizaciones de monitoreo: En el mapa deben visualizarse con un icono que permita al usuario tener mayores detalles como: Nombre, descripción, ubicación, imágenes, enlaces, entre otros.
-
        # Estaciones de monitoreo: En el mapa deben visualizarse con un icono que permita al usuario tener mayores detalles como descripción, ubicación, organización, entre otros atributos, un enlace y una imagen.
 
        
@@ -39,9 +38,7 @@ En el 2010 e inicios de 2011 se diseñó una primera versión del sobre la base 
    * Las organizaciones de monitoreo y las estaciones de monitoreo deben ser clasificadas:
 
        # Unas categorías definidas por el proyecto:
-
        # Otros cualesquiera por el usuario final.
-
        # Los usuarios autorizados para administrar las categorías son: Sólo los profesores.
 
      
@@ -49,13 +46,9 @@ En el 2010 e inicios de 2011 se diseñó una primera versión del sobre la base 
    * Consulta y análisis de información por categorías (requiere de la construcción de la consulta en el sistema). Ejemplos:
 
        # Escuelas en riesgo de inundación por unidad administrativa (distrito, cantón)
-
        # Erosión por cultivo según pendiente y tipo de suelo por unidad administrativa (distrito, cantón)
-
        # Uso del suelo distinto a bosque dentro del área de protección en riberas (10 o 50 metros) por unidad administrativa (distrito, cantón)
-
        # ¿A qué distancias de los ríos se encuentra cada uno de los hospitales?
-
        # Para construir el comedor estudiantil para el distrito escolar SD2 se requiere conocer las coordinadas del punto central entre las escuelas.
 
 *Interfaz de ejemplo “constructor de consultas”:*
@@ -73,16 +66,38 @@ http://www.candres.com/archivo/consultas.jpg
 
 http://www.candres.com/archivo/ejem.png
 
-The following is:
-  * A list
-  * Of bulleted items
-    # This is a numbered sublist
-    # Which is done by indenting further
-  * And back to the main bulleted list
+*LINKS EXTERNOS*
 
- * This is also a list
- * With a single leading space
- * Notice that it is rendered
-  # At the same levels
-  # As the above lists.
- * Despite the different indentation levels.
+El siguiente es el link de la página principal del proyecto 
+
+www.moe-gaur.odd.ucr.ac.cr aunque por el momento el que funciona es:
+
+http://163.178.114.104/mgau/ 
+
+SAEP-PitA bajo la plataforma SIRZEE (San Carlos)
+
+http://www.sirzee.itcr.ac.cr/modules/GIS/maep/htdocs/map_default.phtml
+
+Atlas Digital 2008 en:
+
+http://usuariosigcr.hostei.com/index.php?option=com_content&view=frontpage&Itemid=7
+
+
+Manual de php
+
+http://www.php.net/manual/en/
+
+http://www.php.net/manual/es/
+
+Componentes a utilizar en el proyecto 
+
+http://mapserver.org/
+
+http://www.pmapper.net/index.shtml
+
+http://postgis.refractions.net/
+
+Tecnologías a valorar
+
+http://geoserver.org/display/GEOS/Welcome
+
