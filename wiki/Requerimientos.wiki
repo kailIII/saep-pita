@@ -100,3 +100,41 @@ http://postgis.refractions.net/
 Tecnologías a valorar
 
 http://geoserver.org/display/GEOS/Welcome
+
+==REQUERIMIENTOS NO FUNCIONALES==
+
+Algunos requerimientos no funcionales que se han identificado son:
+
+===Integridad:=== Cada componente y funcionalidad debe tener consistencia en el sistema en general, en otras palabras, cada elemento del sistema debe cumplir con un propósito acorde con la visión del cliente o la arquitectura.
+
+Integración: Eventual integración o interoperabilidad con el proyecto volcán del OdD.
+
+===Usabilidad:=== Utilizar almenos objetos gráficos como botones, paneles, combo box, iconos, imágenes, barras de desplazamiento, scroll up/down, campos para texto y menu de opciones. Además el sistema contará con Logo, mapa del sitio, contacto, guía al usuario (ayuda), enlaces reconocibles, entre otros.
+
+===Seguridad:===
+
+1.Sólo los usuarios registrados y autenticados podrán crear, editar o eliminar (según corresponda) documentos. Usuarios no autenticados podrán hacer sólo lectura.
+
+2.El sistema debe contar con un administrador de cuentas para modificar privilegios o eliminar usuarios.
+
+===Disponibilidad:=== El sistema debe estar disponible las 24 horas con 365 días por lo menos en un 97%. Se entenderá por disponibilidad que el sistema cumpla con los requerimientos funcionales y no funcionales. Por ejemplo si un servicio está durando más del tiempo establecido se tomará como no disponible.
+
+===Desempeño:=== Ningún servicio como la autenticación, el despliegue del mapa, entre otros no debe sobrepasar los 20 segundos.
+
+===Hardware:===
+
+1.El software debe visualizarse de manera coherente con un monitor de resolución 1024 x 768 o más alta.
+
+2.Los requerimientos de desempeño anteriores se cumplirán con máquinas de 1.5 Hrz y 250 MB RAM o más.
+
+===Software:===
+
+1. Programado con php, postGIS, mapserver y p.mapper.
+
+2. El sistema estará disponible en Firefox, Internet Explorer y Google Crome.
+
+===Modificabilidad:===
+El sistema no debe ser difícil de mantener o configurar en el futuro. En la medida posible deberá ofrecer archivos de configuración, documentación interna del código y manuales de consulta para el administrador del sistema. 
+
+===Testing del software===
+El desarrollo del software debe contar con un servidor de pruebas ya que no es posible hacer uso del servidor del OdD para eso. El software se implantará en el servidor del OdD después de que se ha probado su funcionalidad correcta y simulando el ambiente del servidor del OdD.
