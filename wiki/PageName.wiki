@@ -1,5 +1,6 @@
 #labels bienvenida
-#Bienvenida al equipo de desarrollado del curso de ingeniería de software.
+                                                              12/10/2011
+#Bienvenida al equipo de desarrollado del curso de ingeniería de software. 
 
 = Resumen de la actividad =
 
