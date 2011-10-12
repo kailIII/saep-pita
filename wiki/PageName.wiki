@@ -23,11 +23,11 @@ Este documento resume la actividad de bienvenida al equipo de desarrollo del cur
 
   * Selección de herramientas de Comunicación
 
-    # Code google
+  # Code google
 
-    # Chat y Foros
+  # Chat y Foros
 
-    # Tortoise svn
+  # Tortoise svn
 
   * Testing
 
