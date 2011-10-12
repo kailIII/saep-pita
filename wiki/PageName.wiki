@@ -27,8 +27,8 @@ Este documento resume la actividad de bienvenida al equipo de desarrollo del cur
 
   * Selección de herramientas de Comunicación
 
-      # Code google
-      # Chat y Foros: Se selecciona el chat de gmail y skype.
+      # Code google: Se adjunta guia en downloads del code google.
+      # Chat y Foros: Se selecciona el chat de gmail y skype (Mi usuario de skype es candres.com)
       # Tortoise svn: Se adjunta guia en downloads del code google.
 
   * Testing
