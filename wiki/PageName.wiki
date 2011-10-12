@@ -1,0 +1,22 @@
+#labels bienvenida
+#Bienvenida al equipo de desarrollado del curso de ingeniería de software.
+
+= Resumen de la actividad =
+
+Este documento resume la actividad de bienvenida al equipo de desarrollo del curso de ingeniería de software de la Escuela de Computación e Informática de la Universidad de Costa Rica partido por el profesor Alan Calderón.
+
+
+= Contenido =
+
+
+  * Introducción
+  * Historia SAEP-PitA
+  * Presentación de otros integrantes del proyecto
+  * Metodología de trabajo -Proceso Unificado-
+  * Capacitación Php, Mapserver y p.mapper (¿tutoriales?)
+  * Calendario
+  * Selección de herramientas de Comunicación
+    #Code google
+    #Chat y Foros
+    #Tortoise svn
+  * Dudas de requerimientos
