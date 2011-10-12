@@ -16,7 +16,7 @@ Este documento resume la actividad de bienvenida al equipo de desarrollo del cur
   * Capacitación Php, Mapserver y p.mapper (¿tutoriales?)
   * Calendario
   * Selección de herramientas de Comunicación
-    #Code google
-    #Chat y Foros
-    #Tortoise svn
+    #Code google#
+    #Chat y Foros#
+    #Tortoise svn#
   * Dudas de requerimientos
