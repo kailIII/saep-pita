@@ -10,13 +10,25 @@ Este documento resume la actividad de bienvenida al equipo de desarrollo del cur
 
 
   * Introducción
+
   * Historia SAEP-PitA
+
   * Presentación de otros integrantes del proyecto
+
   * Metodología de trabajo -Proceso Unificado-
+
   * Capacitación Php, Mapserver y p.mapper (¿tutoriales?)
+
   * Calendario
+
   * Selección de herramientas de Comunicación
-    #Code google#
-    #Chat y Foros#
-    #Tortoise svn#
+
+    #Code google
+
+    #Chat y Foros
+
+    #Tortoise svn
+
+  * Testing
+
   * Dudas de requerimientos
