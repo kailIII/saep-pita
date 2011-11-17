@@ -72,7 +72,7 @@ El siguiente es el link de la página principal del proyecto
 
 http://www.moe-gaur.odd.ucr.ac.cr aunque por el momento el que funciona es:
 
-http://163.178.114.104/mgau/ 
+http://mgau.odd.ucr.ac.cr
 
 SAEP-PitA bajo la plataforma SIRZEE (San Carlos)
 
